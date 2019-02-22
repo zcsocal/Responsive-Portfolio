@@ -1,0 +1,93 @@
+body {
+background-image: url(https://newevolutiondesigns.com/images/freebies/galaxy-wallpaper-preview-9.jpg);
+background-repeat: no-repeat;
+background-color: black;
+background-size: cover;
+font-size: 23px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+
+    font-family: 'Mystery Quest', cursive;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    padding: 25px;
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+box-shadow: 10px 10px 10px  black;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+
+#circle {
+    width: 500px;
+    height: 500px;
+    
+    background: #f7ff87;
+    -moz-border-radius: 250px;
+    -webkit-border-radius: 250px;
+    border-radius: 250px;
+    position: absolute;
+    z-index: 15;
+    top: 50%;
+    left: 42%;
+    margin: -100px 0 0 -150px;
+    box-shadow: 20px 20px 20px 20px #f7ff87;
+    opacity: 0.8; 
+}
+
+.gamediv {
+    position: relative;
+    left: 15%;
+    margin-top: 35%;
+    border: 0px solid #73AD21;
+    width: max-content;
+
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#won {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 375px;
+} */
